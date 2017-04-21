@@ -37,7 +37,7 @@ int main() {
 
 	int lowV = 60;
 	int highV = 255;
-	// HUE for YELLOW is 21-30.
+	//
 	// Adjust Saturation and Value depending on the lighting condition of the environment as well as the surface of the object.
 
 	while (charCheckForEscKey != 27 && capWebcam.isOpened()) {				// until the Esc is pressed or webcam connection is lost
